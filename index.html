@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Securing Digital Assets | Cybersecurity & Software Testing</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      background: #001f42;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9em;
+      text-transform: uppercase;
+    }
+
+    header {
+      background: linear-gradient(rgba(0, 43, 92, 0.9), rgba(0, 43, 92, 0.9)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1500&q=80');
+      background-size: cover;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 2.8em;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      margin: 25px auto;
+      max-width: 700px;
+      color: #d1d1d1;
+    }
+
+    .cta-button {
+      background: #ff4c4c;
+      color: white;
+      padding: 15px 35px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #e63939;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2.2em;
+      color: #002b5c;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      border-top: 5px solid #002b5c;
+    }
+
+    .card h3 {
+      color: #002b5c;
+      margin-top: 0;
+    }
+
+    .about-flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 8px 0;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    ul li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #28a745;
+      font-weight: bold;
+    }
+
+    .contact-container {
+      background: #002b5c;
+      color: white;
+      padding: 50px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .contact-container h2 {
+      color: white;
+      margin-top: 0;
+    }
+
+    .contact-links {
+      margin-top: 30px;
+      font-size: 1.1em;
+    }
+
+    .contact-links a {
+      color: #ff4c4c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #001f42;
+      color: #888;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero">
+    <h1>Securing Digital Assets. Testing Software. Empowering Businesses.</h1>
+    <p>Industry-leading cybersecurity, penetration testing, ethical hacking, and software testing solutions for robust
+      digital systems.</p>
+    <a
+      href="#contact"
+      class="cta-button"
+    >Request a Security Assessment</a>
+  </header>
+
+  <section id="about">
+    <div class="about-flex">
+      <div class="about-text">
+        <h2>Who We Are</h2>
+        <p>We are a trusted Information Technology services company specializing in cybersecurity and software quality
+          assurance. Our team of certified security professionals and testing engineers helps businesses identify
+          vulnerabilities, strengthen defenses, and deliver robust digital products.</p>
+        <h3>Our Mission</h3>
+        <p>To protect organizations from cyber threats, ensure software reliability, and enable innovation through
+          secure and efficient technology solutions.</p>
+      </div>
+      <div
+        class="about-text"
+        style="background: #f4f7fa; padding: 30px; border-radius: 10px;"
+      >
+        <h3>Why Choose Us</h3>
+        <ul>
+          <li>Certified ethical hackers & security analysts</li>
+          <li>Industry-standard tools and methodologies</li>
+          <li>Compliance-driven testing approach</li>
+          <li>Detailed reports with actionable insights</li>
+          <li>Confidential, professional, and reliable service</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section
+    id="services"
+    style="background: #fdfdfd;"
+  >
+    <h2>Our Core Expertise</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🔐 Penetration Testing</h3>
+        <p>Simulating real-world cyberattacks to uncover weaknesses in Web & Mobile Apps, Networks, Cloud, and APIs.</p>
+        <p><strong>Outcome:</strong> Clear vulnerability reports and remediation guidance.</p>
+      </div>
+      <div class="card">
+        <h3>🛡️ Cybersecurity</h3>
+        <p>Building resilient frameworks to protect data and users through risk assessments and incident response
+          support.</p>
+        <p><strong>Focus:</strong> Compliance advisory and security policy development.</p>
+      </div>
+      <div class="card">
+        <h3>🧪 Software Testing</h3>
+        <p>Ensuring applications work exactly as intended through Functional, Regression, and User Acceptance testing.
+        </p>
+        <p><strong>Outcome:</strong> Fewer defects and superior product quality.</p>
+      </div>
+      <div class="card">
+        <h3>⚡ Performance Testing</h3>
+        <p>Evaluating speed, scalability, and stability under stress to ensure reliability during heavy traffic.</p>
+        <p><strong>Outcome:</strong> Fast and stable user experiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Let’s Secure and Optimize Your Technology</h2>
+      <p>Our experts are ready to help you with your next security assessment or software testing project.</p>
+      <div class="contact-links">
+        <p>Email: <a href="mailto:fortunemunu@yahoo.com">fortunemunu@yahoo.com</a></p>
+        <p>Phone: <a href="tel:+2347062236473">+234 706 223 6473</a></p>
+      </div>
+      <br>
+      <a
+        href="mailto:fortunemunu@yahoo.com"
+        class="cta-button"
+      >Send an Inquiry</a>
+    </div>
+  </section>
+
+  <footer>
+    <p> &copy; 2026 IT Security & Testing Services. Remote and Global Delivery.</p>
+  </footer>
+
+</body>
+
+</html>
